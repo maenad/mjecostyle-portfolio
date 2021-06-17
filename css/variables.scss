@@ -1,0 +1,19 @@
+/*COLOURS*/
+
+$dark-green: #0d917d;
+$light-green: #5cc299;
+$dusty-pink: rgb(234, 202, 199);
+$dusty-pink-20: rgba(234, 202, 199, 0.200);
+$dusty-pink-60: rgba(234, 202, 199, 0.600);
+$soft-gray: rgba(0, 0, 0, 0.200);
+$dark-black: #0000;
+$pure-white: #ffff;
+
+/*TYOPGRAPHY*/
+    /* Poppins */ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+    
+    /* Aguila Thin */
+    @font-face {
+        font-family: "Aguila-Thin";
+        src: url('../assets/webFonts/AguilaThin/font.woff2') format('woff2'), url('../assets/webFonts/AguilaThin/font.woff') format('woff');
+      }

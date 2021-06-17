@@ -1,0 +1,116 @@
+@import "variables.scss";
+
+h1 {
+    margin-bottom: 0 !important;
+}
+
+.story {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+
+    .left {
+        width: 48%;
+        height: 70vh;
+        margin-right: .5em;
+        background-image: url('../assets//mary-story-image.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+            
+            .detail {
+            position: absolute;
+        }
+        .detail-1 {
+            margin-top: -5em;
+        }
+
+
+        .detail-3 {
+            bottom: -20em;
+            right: 0;
+        }
+    }
+
+    .right {
+        width: 48%;
+        margin-left: .5em;
+
+        h2 {
+            margin-bottom: .5em;
+        }
+
+        p {
+            text-align: justify;
+            font-size: 25px;
+            font-weight: 400;
+        }
+
+
+    }
+    .read-more {
+        visibility: hidden;
+        }
+}
+
+@media (max-width: 1800px) {
+    .detail {
+        display: none;
+    }
+}
+
+
+@media (max-width: 1500px) {
+
+    .detail, .main-img {
+        display: none;
+    }
+    .story {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+
+        .left, .right {
+            width: 90%;
+            height: auto;
+            margin: 0;
+            text-align: left;
+            font-size: 20px;
+
+            h2 {
+                font-size: 20px;
+                width: 60%;
+                margin-top: 1.5em;
+            }
+
+            p {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            p:nth-child(even) {
+                display: none;
+            }
+        }
+
+        .left {
+            background-color: white;
+            background-image: url('../assets//mary-mobile.png');
+            height: 400px;
+            width: 90%;
+            background-repeat: no-repeat;
+            background-size: contain;
+
+
+        }
+        .read-more {
+            visibility: visible;
+            text-decoration: underline;
+            font-size: 20px;
+            text-align: left;
+            width: 90%;
+            margin-top: 1em;
+    }
+    }
+}

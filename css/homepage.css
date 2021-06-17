@@ -1,0 +1,98 @@
+/*COLOURS*/
+/*TYOPGRAPHY*/
+/* Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+/* Aguila Thin */
+@font-face {
+  font-family: "Aguila-Thin";
+  src: url("../assets/webFonts/AguilaThin/font.woff2") format("woff2"), url("../assets/webFonts/AguilaThin/font.woff") format("woff");
+}
+
+/*Hero section*/
+.hero {
+  text-align: center;
+}
+
+.hero .title-mobile, .hero .subtitle-mobile {
+  height: 1px;
+  visibility: hidden;
+}
+
+.collage {
+  margin-top: 2em;
+  background-color: lightgray;
+  height: 460px;
+}
+
+.products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.products .product {
+  width: 410px;
+  height: auto;
+  text-align: center;
+  margin: 40px 0px 40px 0px;
+}
+
+.products .product .view-more {
+  visibility: hidden;
+  position: absolute;
+  width: 55px;
+  height: auto;
+}
+
+.products .product img {
+  width: 100%;
+  height: auto;
+}
+
+.products .product h3 {
+  padding: .5em 0em 1em 0em;
+}
+
+/*MEDIA QUERIES - MOBILE VERSION*/
+@media (max-width: 770px) {
+  .hero {
+    padding: 20px;
+  }
+  .hero .title .title-mobile, .hero .title .subtitle-mobile {
+    visibility: visible;
+    font-size: 20px;
+    margin-bottom: 1.5em;
+  }
+  .hero .title .title-mobile {
+    font-size: 50px;
+  }
+  .hero .title .title-desktop, .hero .title .subtitle-desktop {
+    height: 1px;
+    visibility: hidden;
+  }
+  .hero .collage {
+    display: none;
+  }
+  .products {
+    padding-top: 0;
+  }
+  .products button {
+    display: none;
+  }
+  .products .product {
+    margin: 20px 0px;
+  }
+  .products .product .view-more {
+    visibility: visible;
+    margin: 10px;
+  }
+}
+/*# sourceMappingURL=homepage.css.map */

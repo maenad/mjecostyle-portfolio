@@ -1,0 +1,10 @@
+/*COLOURS*/
+/*TYOPGRAPHY*/
+/* Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+/* Aguila Thin */
+@font-face {
+  font-family: "Aguila-Thin";
+  src: url("../assets/webFonts/AguilaThin/font.woff2") format("woff2"), url("../assets/webFonts/AguilaThin/font.woff") format("woff");
+}
+/*# sourceMappingURL=variables.css.map */

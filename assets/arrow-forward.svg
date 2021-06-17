@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="36.667" viewBox="0 0 50 36.667">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Trazado_117" data-name="Trazado 117" d="M19.661,49.458l16.4-15.384a1.921,1.921,0,0,0,.075-2.719,1.993,1.993,0,0,0-2.729-.075L20.264,43.629V1.923a1.93,1.93,0,0,0-3.86,0V43.629L3.257,31.28a2.026,2.026,0,0,0-2.73.075A1.92,1.92,0,0,0,.6,34.074l16.4,15.384A1.713,1.713,0,0,0,18.334,50a2.248,2.248,0,0,0,1.327-.542" fill="#0d917d" clip-rule="evenodd"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Trazado_116" data-name="Trazado 116" d="M0,4141.667H2400V0H0Z" fill="#0d917d"/>
+    </clipPath>
+  </defs>
+  <g id="arrow-forward" transform="translate(50) rotate(90)">
+    <g id="Grupo_67" data-name="Grupo 67" transform="translate(36.667 50) rotate(180)" clip-path="url(#clip-path)">
+      <g id="Grupo_66" data-name="Grupo 66" transform="translate(-2275 -1901.666)" clip-path="url(#clip-path-2)">
+        <path id="Trazado_115" data-name="Trazado 115" d="M53.333,0V66.667H0V0Z" transform="translate(2266.667 1893.333)" fill="#0d917d"/>
+      </g>
+    </g>
+  </g>
+</svg>

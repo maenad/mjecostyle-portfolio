@@ -1,0 +1,126 @@
+/*COLOURS*/
+/*TYOPGRAPHY*/
+/* Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+/* Aguila Thin */
+@font-face {
+  font-family: "Aguila-Thin";
+  src: url("../assets/webFonts/AguilaThin/font.woff2") format("woff2"), url("../assets/webFonts/AguilaThin/font.woff") format("woff");
+}
+
+h1 {
+  margin-bottom: 0 !important;
+}
+
+.story {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 2em;
+}
+
+.story .left {
+  width: 48%;
+  height: 70vh;
+  margin-right: .5em;
+  background-image: url("../assets//mary-story-image.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.story .left .detail {
+  position: absolute;
+}
+
+.story .left .detail-1 {
+  margin-top: -5em;
+}
+
+.story .left .detail-3 {
+  bottom: -20em;
+  right: 0;
+}
+
+.story .right {
+  width: 48%;
+  margin-left: .5em;
+}
+
+.story .right h2 {
+  margin-bottom: .5em;
+}
+
+.story .right p {
+  text-align: justify;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.story .read-more {
+  visibility: hidden;
+}
+
+@media (max-width: 1800px) {
+  .detail {
+    display: none;
+  }
+}
+
+@media (max-width: 1500px) {
+  .detail, .main-img {
+    display: none;
+  }
+  .story {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .story .left, .story .right {
+    width: 90%;
+    height: auto;
+    margin: 0;
+    text-align: left;
+    font-size: 20px;
+  }
+  .story .left h2, .story .right h2 {
+    font-size: 20px;
+    width: 60%;
+    margin-top: 1.5em;
+  }
+  .story .left p, .story .right p {
+    text-align: left;
+    font-size: 20px;
+  }
+  .story .left p:nth-child(even), .story .right p:nth-child(even) {
+    display: none;
+  }
+  .story .left {
+    background-color: white;
+    background-image: url("../assets//mary-mobile.png");
+    height: 400px;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .story .read-more {
+    visibility: visible;
+    text-decoration: underline;
+    font-size: 20px;
+    text-align: left;
+    width: 90%;
+    margin-top: 1em;
+  }
+}
+/*# sourceMappingURL=story.css.map */

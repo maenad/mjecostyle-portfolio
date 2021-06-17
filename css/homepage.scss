@@ -1,0 +1,94 @@
+@import "variables.scss";
+
+/*Hero section*/
+
+.hero {
+    text-align: center;
+
+    .title-mobile, .subtitle-mobile {
+        height: 1px;
+        visibility: hidden;
+    }
+}
+
+.collage {
+    margin-top: 2em;
+    background-color: lightgray;
+    height: 460px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    .product {
+        width: 410px;
+        height: auto;
+        text-align: center;
+        margin: 40px 0px 40px 0px;
+
+        .view-more {
+            visibility: hidden;
+            position: absolute;
+            width: 55px;
+            height: auto;
+
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        h3 {
+            padding: .5em 0em 1em 0em;
+        }
+    }
+}
+
+/*MEDIA QUERIES - MOBILE VERSION*/
+
+@media (max-width: 770px) {
+    .hero {
+        padding: 20px;
+        .title {
+            .title-mobile, .subtitle-mobile {
+                visibility: visible;
+                font-size: 20px;
+                margin-bottom: 1.5em;
+            }
+
+            .title-mobile {
+                font-size: 50px;
+            }
+    
+            .title-desktop, .subtitle-desktop {
+                height: 1px;
+                visibility: hidden;
+            }
+        }
+
+        .collage {
+            display: none;
+        }
+    }
+
+    .products {
+        padding-top: 0;
+
+        button {
+            display: none;
+        }
+
+        .product {
+            margin: 20px 0px;
+
+            .view-more {
+                visibility: visible;
+
+                margin: 10px;
+            }
+        }
+    }
+}
